@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         MediaController mediaController  = new MediaController(this);
         clip.setMediaController(mediaController);
         mediaController.setAnchorView(clip);
+        //To Start the Clip
         clip.start();
     }
 }
